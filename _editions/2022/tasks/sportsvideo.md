@@ -26,7 +26,7 @@ Subtask 1 is a classification task: participants are required to build a classif
 
 Subtask 2 is a more challenging subtask proposed since last year: the goal here is to detect if a stroke has been performed, whatever its classes, and to extract its temporal boundaries. The aim is to be able to distinguish between moments of interest in a game (players performing strokes) from irrelevant moments (picking up the ball, having a break…). This subtask can be a preliminary step for later recognizing a stroke that has been performed.
 
-The organizers encourage the use of the method developed for subtask 1 to solve subtask 2. Participants are also invited to use the provided baseline as a starting point in their investigation: TBA
+The organizers encourage the use of the method developed for subtask 1 to solve subtask 2. Participants are also invited to use the [provided baseline](https://github.com/ccp-eva/SportTaskME22) as a starting point in their investigation: TBA
 
 
 
@@ -53,22 +53,23 @@ Here are several research questions related to this challenge that participants 
 <!-- # and so on-->
 
 #### References and recommended reading
-The CRISP Project page
+[The CRISP Project page](https://github.com/P-eMartin/crisp)
 
-Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, Julien Morlier. Three-Stream 3D/1D CNN for Fine-Grained Action Classification and Segmentation in Table Tennis. 4th International ACM Workshop on Multimedia Content Analysis in Sports, ACM Multimedia, Oct 2021, Chengdu, China. 
+Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, Julien Morlier. [Three-Stream 3D/1D CNN for Fine-Grained Action Classification and Segmentation in Table Tennis](https://arxiv.org/abs/2109.14306). 4th International ACM Workshop on Multimedia Content Analysis in Sports, ACM Multimedia, Oct 2021, Chengdu, China. 
 
-Kaustubh Milind Kulkarni, Sucheth Shenoy: Table Tennis Stroke Recognition Using Two-Dimensional Human Pose Estimation. CVPR Workshops 2021: 4576-4584.
+Kaustubh Milind Kulkarni, Sucheth Shenoy: [Table Tennis Stroke Recognition Using Two-Dimensional Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2021W/CVSports/papers/Kulkarni_Table_Tennis_Stroke_Recognition_Using_Two-Dimensional_Human_Pose_Estimation_CVPRW_2021_paper.pdf). CVPR Workshops 2021: 4576-4584.
 
-Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, Julien Morlier. Fine grained sport action recognition with siamese spatio-temporal convolutional neural networks. Multimedia Tools and Applications, vol. 79, 20429–20447, Springer (2020).
+Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, Julien Morlier. [Fine grained sport action recognition with siamese spatio-temporal convolutional neural networks](https://link.springer.com/epdf/10.1007/s11042-020-08917-3). Multimedia Tools and Applications, vol. 79, 20429–20447, Springer (2020).
 
-Extended work in: Pierre-Etienne Martin. Fine-Grained Action Detection and Classification from Videos with Spatio-Temporal Convolutional Neural Networks. Application to Table Tennis. Neural and Evolutionary Computing [cs.NE]. Université de Bordeaux; Université de la Rochelle, 2020.
+Extended work in: Pierre-Etienne Martin. [Fine-Grained Action Detection and Classification from Videos with Spatio-Temporal Convolutional Neural Networks. Application to Table Tennis](https://hal.archives-ouvertes.fr/tel-03099907). Neural and Evolutionary Computing [cs.NE]. Université de Bordeaux; Université de la Rochelle, 2020.
 
-Gül Varol, Ivan Laptev, and Cordelia Schmid. Long-Term Temporal Convolutions for Action Recognition. IEEE Trans. Pattern Anal. Mach. Intell. 40, 6 (2018), 1510–1517.
+Gül Varol, Ivan Laptev, and Cordelia Schmid. [Long-Term Temporal Convolutions for Action Recognition](https://arxiv.org/pdf/1604.04494.pdf). IEEE Trans. Pattern Anal. Mach. Intell. 40, 6 (2018), 1510–1517.
 
-Joao Carreira and Andrew Zisserman. Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset. CoRR abs/1705.07750 (2017).
+Joao Carreira and Andrew Zisserman. [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](https://arxiv.org/pdf/1705.07750.pdf). CoRR abs/1705.07750 (2017).
 
-Chunhui Gu, Chen Sun, Sudheendra Vijayanarasimhan, Caroline Pantofaru, David A. Ross, George Toderici, Yeqing Li, Susanna Ricco, Rahul Sukthankar, Cordelia Schmid, and Jitendra Malik. AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions. CoRR abs/1705.08421 (2017).
-Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. UCF101: A dataset of 101 hu- man actions classes from videos in the wild. CoRR 1212.0402 (2012).
+Chunhui Gu, Chen Sun, Sudheendra Vijayanarasimhan, Caroline Pantofaru, David A. Ross, George Toderici, Yeqing Li, Susanna Ricco, Rahul Sukthankar, Cordelia Schmid, and Jitendra Malik. [AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions](http://openaccess.thecvf.com/content_cvpr_2018/papers/Gu_AVA_A_Video_CVPR_2018_paper.pdf). CoRR abs/1705.08421 (2017).
+
+Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. [UCF101: A dataset of 101 hu- man actions classes from videos in the wild](https://arxiv.org/pdf/1212.0402.pdf). CoRR 1212.0402 (2012).
 
 #### Task organizers
 * You can email us directly at mediaeval.sport.task (at) diff.u-bordeaux.fr.
